@@ -11,7 +11,7 @@ from datetime import date
 import snowflake.connector
 
 curr_date=date.today().strftime('%d-%m-%Y')
-client = genai.Client(api_key='AIzaSyD_x63M1gvdMFhcytGuws8meL4IQhu4YVA')
+client = genai.Client(api_key='')
 doc1 = pathlib.Path('C:/Users/2149527/OneDrive - Cognizant/Desktop/GenAIPoc/India_Holiday_Calendar_2025.pdf')
 doc2 = pathlib.Path('C:/Users/2149527/OneDrive - Cognizant/Desktop/GenAIPoc/Leave_Scope.pdf')
 st.title('HR Bot')
@@ -257,5 +257,6 @@ if __name__ == "__main__":
 
 
             
+
 
 
